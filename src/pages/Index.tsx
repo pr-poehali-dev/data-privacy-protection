@@ -460,23 +460,7 @@ export default function Index() {
               ))}
             </div>
 
-            <div className="text-center mb-10">
-              <div className="tag-pill inline-flex mb-4">Команда</div>
-              <h2 className="font-montserrat text-3xl font-black text-white">Кто создаёт ДатаШилд</h2>
-            </div>
-            <div className="grid md:grid-cols-3 gap-5">
-              {[
-                { name: "Анна Соколова", role: "Юрист, 152-ФЗ", emoji: "👩‍⚖️" },
-                { name: "Дмитрий Власов", role: "Специалист по кибербезопасности", emoji: "🔐" },
-                { name: "Ольга Тихонова", role: "Методолог и редактор", emoji: "📝" },
-              ].map((p) => (
-                <div key={p.name} className="glass-card rounded-2xl p-6 text-center card-hover" style={{ border: "1px solid rgba(139,92,246,0.2)" }}>
-                  <div className="text-5xl mb-4">{p.emoji}</div>
-                  <div className="font-montserrat font-bold text-white mb-1">{p.name}</div>
-                  <div className="text-white/40 text-sm">{p.role}</div>
-                </div>
-              ))}
-            </div>
+
           </div>
         )}
       </main>
